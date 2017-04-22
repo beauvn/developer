@@ -1,0 +1,179 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to BeauTheme Docs for Devs", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-beautheme-docs-for-devs", 
+            "text": "", 
+            "title": "Welcome to BeauTheme Docs for Devs"
+        }, 
+        {
+            "location": "/framework/start/", 
+            "text": "", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/framework/basic/", 
+            "text": "", 
+            "title": "Theme Basics"
+        }, 
+        {
+            "location": "/framework/afc/", 
+            "text": "", 
+            "title": "Advanced Custom Fields"
+        }, 
+        {
+            "location": "/framework/vcomposer/", 
+            "text": "", 
+            "title": "Visual Composer"
+        }, 
+        {
+            "location": "/framework/theme-option/", 
+            "text": "", 
+            "title": "Theme Customization"
+        }, 
+        {
+            "location": "/patternlab/start/", 
+            "text": "Gi\u1edbi thi\u1ec7u\n\n\nL\u00e0 b\u1ea3n custom d\u1ef1a tr\u00ean PatternLab PHP", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/patternlab/components/", 
+            "text": "", 
+            "title": "Components"
+        }, 
+        {
+            "location": "/patternlab/guidelines/", 
+            "text": "Quy tr\u00ecnh l\u00e0m vi\u1ec7c\n\n\n+ inprogress\n+ codereview\n+ designreview\n+ complete\n\n\n\n\n\n\nCoder\n\n\nLu\u00f4n submit code v\u00e0o 5h30 chi\u1ec1u \u0111\u1ec3 reviewer check. C\u00e1c ph\u1ea7n ch\u01b0a l\u00e0m xong s\u1ebd \u0111\u00e1nh d\u1ea5u inprogress, c\u00e1c ph\u1ea7n c\u1ea7n review code th\u00ec \u0111\u1ec3 l\u00e0 codereview . \u0110\u1ea3m b\u1ea3o t\u1ea5t c\u1ea3 code format, validate tr\u01b0\u1edbc khi chuy\u1ec3n state codereview\n\n\n\n\n\n\nCoder Reviewer\n\n\nCode reviewer: C\u1ea7n review html/scss, js/modifier n\u1ebfu c\u00f3. N\u1ebfu review th\u1ea5y ch\u01b0a \u0111\u01b0\u1ee3c, note lu\u00f4n v\u00e0o file document (.md) v\u00e0 chuy\u1ec3n state v\u1ec1 inprogress. N\u1ebfu code ok chuy\u1ec3n qua state designreview\n\n\n\n\n\n\nT\u1ea1o State\n\n\n\u1ede phi\u00ean b\u1ea3n PHP t\u1ea1o state kh\u00f4ng vi\u1ebft trong file .md m\u00e0 t\u1ea1o file .twig c\u00f3 t\u00ean nh\u01b0 sau :\nt\u00ean_molecule@inprogress.twig \n\n\n\n\nC\u1ea5u tr\u00fac th\u01b0 m\u1ee5c trong template\n\n\n\n\n/source/\n    tpl-project/\n        assets/\n            css/ // ch\u1ee9a file .scss \n                _variables.scss // ch\u1ee9a c\u00e1c bi\u1ebfn khai b\u00e1o modify c\u1ee7a project\n                 main-project.css\n            fonts/ //ch\u1ee9a font nh\u00fang\n            images/ //ch\u1ee9a \u1ea3nh c\u1ee7a project (nh\u01b0 background, logo...)      \n            images-demo/ // ch\u1ee9a c\u00e1c \u1ea3nh demo (nh\u01b0 \u1ea3nh demo b\u00e0i vi\u1ebft blog, avatar...)\n        home.twig //page\n\n\n\n\n\n\n\u0110\u01b0\u1eddng d\u1eabn http\n\n\nKhi l\u00e0m vi\u1ec7c v\u1edbi phi\u00ean b\u1ea3n PatternLab PHP m\u1edbi \u0111\u01b0\u1eddng d\u1eabn \u0111\u1ec3 v\u00e0o project :\n\n\n\n\nhttp://\u0111\u01b0\u1eddng_d\u1eabn_ch\u00ednh:c\u1ed5ng/tpl-{project}/t\u00ean_page.html\n\n\n\n\n\n\nV\u00ed d\u1ee5:\n\n\n\n\nhttp://localhost:3000/tpl-speaker/home.html", 
+            "title": "Guidelines"
+        }, 
+        {
+            "location": "/patternlab/guidelines/#quy-trinh-lam-viec", 
+            "text": "+ inprogress\n+ codereview\n+ designreview\n+ complete   Coder  Lu\u00f4n submit code v\u00e0o 5h30 chi\u1ec1u \u0111\u1ec3 reviewer check. C\u00e1c ph\u1ea7n ch\u01b0a l\u00e0m xong s\u1ebd \u0111\u00e1nh d\u1ea5u inprogress, c\u00e1c ph\u1ea7n c\u1ea7n review code th\u00ec \u0111\u1ec3 l\u00e0 codereview . \u0110\u1ea3m b\u1ea3o t\u1ea5t c\u1ea3 code format, validate tr\u01b0\u1edbc khi chuy\u1ec3n state codereview    Coder Reviewer  Code reviewer: C\u1ea7n review html/scss, js/modifier n\u1ebfu c\u00f3. N\u1ebfu review th\u1ea5y ch\u01b0a \u0111\u01b0\u1ee3c, note lu\u00f4n v\u00e0o file document (.md) v\u00e0 chuy\u1ec3n state v\u1ec1 inprogress. N\u1ebfu code ok chuy\u1ec3n qua state designreview    T\u1ea1o State  \u1ede phi\u00ean b\u1ea3n PHP t\u1ea1o state kh\u00f4ng vi\u1ebft trong file .md m\u00e0 t\u1ea1o file .twig c\u00f3 t\u00ean nh\u01b0 sau :\nt\u00ean_molecule@inprogress.twig", 
+            "title": "Quy tr\u00ecnh l\u00e0m vi\u1ec7c"
+        }, 
+        {
+            "location": "/patternlab/guidelines/#cau-truc-thu-muc-trong-template", 
+            "text": "/source/\n    tpl-project/\n        assets/\n            css/ // ch\u1ee9a file .scss \n                _variables.scss // ch\u1ee9a c\u00e1c bi\u1ebfn khai b\u00e1o modify c\u1ee7a project\n                 main-project.css\n            fonts/ //ch\u1ee9a font nh\u00fang\n            images/ //ch\u1ee9a \u1ea3nh c\u1ee7a project (nh\u01b0 background, logo...)      \n            images-demo/ // ch\u1ee9a c\u00e1c \u1ea3nh demo (nh\u01b0 \u1ea3nh demo b\u00e0i vi\u1ebft blog, avatar...)\n        home.twig //page", 
+            "title": "C\u1ea5u tr\u00fac th\u01b0 m\u1ee5c trong template"
+        }, 
+        {
+            "location": "/patternlab/guidelines/#uong-dan-http", 
+            "text": "Khi l\u00e0m vi\u1ec7c v\u1edbi phi\u00ean b\u1ea3n PatternLab PHP m\u1edbi \u0111\u01b0\u1eddng d\u1eabn \u0111\u1ec3 v\u00e0o project :   http://\u0111\u01b0\u1eddng_d\u1eabn_ch\u00ednh:c\u1ed5ng/tpl-{project}/t\u00ean_page.html   V\u00ed d\u1ee5:   http://localhost:3000/tpl-speaker/home.html", 
+            "title": "\u0110\u01b0\u1eddng d\u1eabn http"
+        }, 
+        {
+            "location": "/patternlab/deployment/", 
+            "text": "Tr\u00ean Server :\n\n\nTh\u00f4ng tin Server\n\n\n\n\nM\u00e1y ch\u1ee7  : labs.awe7.com  \n\n\nT\u00e0i kho\u1ea3n : li\u00ean h\u1ec7 c\u1ea5p cao h\u01a1n \u0111\u1ec3 l\u1ea5y\n\n\nPass : li\u00ean h\u1ec7 c\u1ea5p cao h\u01a1n \u0111\u1ec3 l\u1ea5y \n\n\n\n\nC\u00e0i \u0111\u1eb7t Server\n\n\n\n\n$ ssh beau@labs.awe7.com\n{Nh\u1eadp pass - NOTE: pass s\u1ebd kh\u00f4ng hi\u1ec3n th\u1ecb}\n\n\n\n\n\n\nKi\u1ec3m tra th\u01b0 m\u1ee5c c\u1ee7a m\u00ecnh c\u00f3 t\u1ed3n t\u1ea1i hay kh\u00f4ng qua ls:\n\n\n\n\n$ ls\nbichdn vnmilky\n\n\n\n\n\n\nN\u1ebfu kh\u00f4ng xu\u1ea5t hi\u1ec7n th\u01b0 m\u1ee5c ng d\u00f9ng c\u1ee7a m\u00ecnh, clone th\u01b0 m\u1ee5c c\u1ee7a vnmilky b\u1eb1ng l\u1ec7nh \n\n\n\n\ncp -R vnmilky/ foldername/\n\n\n\n\n\n\nCh\u1ea1y l\u1ec7nh nh\u01b0 tr\u00ean local host \n\n\n\n\ncd foldernam/name-project\nnpm install\ncomposer install \ngulp\n\n\n\n\n\n\nM\u1edf tr\u00ecnh duy\u1ec7t v\u1edbi \u0111\u1ecba ch\u1ec9 : \nhttp://labs.awe7.com:3000\n\n\n\n\n(L\u01b0u \u00fd: Th\u00f4ng th\u01b0\u1eddng port s\u1ebd l\u00e0 3000 tuy nhi\u00ean n\u1ebfu nhi\u1ec1u ch\u01b0\u01a1ng tr\u00ecnh ch\u1ea1y c\u00f9ng l\u00fac port s\u1ebd thay \u0111\u1ed5i, xem th\u00f4ng b\u00e1o tr\u00ean c\u1eeda s\u1ed5 CMD/Ternimal \u0111\u1ec3 bi\u1ebft ch\u00ednh x\u00e1c \u0111\u1ecba ch\u1ec9)\n\n\n\n\n\u0110\u1ed3ng b\u1ed9 t\u1eeb editor l\u00ean server\n\n\nS\u1eed d\u1ee5ng Sublime Text 3, c\u00e0i \u0111\u1eb7t plugin: \nSublime SFTP\n\n\nTh\u00f4ng tin server nh\u01b0 tr\u00ean, \u0111\u01b0\u1eddng d\u1eabn th\u01b0 m\u1ee5c l\u00e0m vi\u1ec7c: /{user}/{project}\n\n\n\n\n{\n\ntype\n: \nftp\n,\n    \nsave_before_upload\n: true,\n    \nupload_on_save\n: true,\n    \nsync_down_on_open\n: false,\n    \nsync_skip_deletes\n: false,\n    \nsync_same_age\n: true,\n    \nconfirm_downloads\n: false,\n    \nconfirm_sync\n: false,\n    \nconfirm_overwrite_newer\n: false,\n    \nhost\n: \nlabs.awe7.com\n,\n    \nuser\n: \nbeau\n,\n    \npassword\n: \n,\n    \nport\n: \n21\n,\n    \nremote_path\n: \n/{user}/{project}\n,\n    \nignore_regexes\n: [\n        \n\\\\.sublime-(project|workspace)\n, \nsftp-config(-alt\\\\d?)?\\\\.json\n,\n        \nsftp-settings\\\\.json\n, \n/venv/\n, \n\\\\.svn/\n, \n\\\\.hg/\n, \n\\\\.git/\n,\n        \n\\\\.bzr\n, \n_darcs\n, \nCVS\n, \n\\\\.DS_Store\n, \nThumbs\\\\.db\n, \ndesktop\\\\.ini\n, \n/node_modules/\n, \n/public/\n\n    ],\n    \nconnect_timeout\n: 30,\n}\n\n\n\n\n\n\n\n\nWarning\n\n\nL\u01b0u \u00fd c\u1ea7n ph\u1ea3i c\u00f3 file .gitignore trong th\u01b0 m\u1ee5c project \n\n\n\n\nN\u1ed9i dung file .gitignore\n\n\n\n\nnode_modules/\n.DS_Store\npatternlab.json\n.sass-cache/*\n/sass-cache\nThumbs.db\n.idea/\npublic/\n/styleguidekit/.sass-cache\ngulpfile.js\nsftp-config.json\n\n\n\n\n\n\nTr\u00ean Local\n\n\nTr\u01b0\u1eddng h\u1ee3p kh\u00f4ng k\u1ebft n\u1ed1i \u0111\u01b0\u1ee3c \u0111\u1ebfn server :\n\n\nClone Project\n\n\nClone project v\u1ec1 local v\u00e0 cd \u0111\u1ebfn th\u01b0 m\u1ee5c project \n\n\n\n\n$ cd project/\n\n\n\n\n\n\nC\u00e0i Gulp\n\n\n\u0110\u1ea7u ti\u00ean ti\u1ebfn h\u00e0nh c\u00e1i Gulp Global b\u1eb1ng l\u1ec7nh \n\n\n\n\n$ npm install --global gulp-cli\n\n\n\n\n\n\nSau \u0111\u00f3 cd v\u00e0o th\u01b0 m\u1ee5c project v\u00e0 ch\u1ea1y l\u1ec7nh \n\n\n\n\n$ npm install gulp\n$ npm install \n$ composer install\n$ gulp\n\n\n\n\n\n\nV\u00e0o b\u1eb1ng \u0111\u01b0\u1eddng d\u1eabn : \nhttp://localhost:3000", 
+            "title": "Deployment"
+        }, 
+        {
+            "location": "/patternlab/deployment/#tren-server", 
+            "text": "", 
+            "title": "Tr\u00ean Server :"
+        }, 
+        {
+            "location": "/patternlab/deployment/#thong-tin-server", 
+            "text": "M\u00e1y ch\u1ee7  : labs.awe7.com    T\u00e0i kho\u1ea3n : li\u00ean h\u1ec7 c\u1ea5p cao h\u01a1n \u0111\u1ec3 l\u1ea5y  Pass : li\u00ean h\u1ec7 c\u1ea5p cao h\u01a1n \u0111\u1ec3 l\u1ea5y", 
+            "title": "Th\u00f4ng tin Server"
+        }, 
+        {
+            "location": "/patternlab/deployment/#cai-at-server", 
+            "text": "$ ssh beau@labs.awe7.com\n{Nh\u1eadp pass - NOTE: pass s\u1ebd kh\u00f4ng hi\u1ec3n th\u1ecb}   Ki\u1ec3m tra th\u01b0 m\u1ee5c c\u1ee7a m\u00ecnh c\u00f3 t\u1ed3n t\u1ea1i hay kh\u00f4ng qua ls:   $ ls\nbichdn vnmilky   N\u1ebfu kh\u00f4ng xu\u1ea5t hi\u1ec7n th\u01b0 m\u1ee5c ng d\u00f9ng c\u1ee7a m\u00ecnh, clone th\u01b0 m\u1ee5c c\u1ee7a vnmilky b\u1eb1ng l\u1ec7nh    cp -R vnmilky/ foldername/   Ch\u1ea1y l\u1ec7nh nh\u01b0 tr\u00ean local host    cd foldernam/name-project\nnpm install\ncomposer install \ngulp   M\u1edf tr\u00ecnh duy\u1ec7t v\u1edbi \u0111\u1ecba ch\u1ec9 :  http://labs.awe7.com:3000   (L\u01b0u \u00fd: Th\u00f4ng th\u01b0\u1eddng port s\u1ebd l\u00e0 3000 tuy nhi\u00ean n\u1ebfu nhi\u1ec1u ch\u01b0\u01a1ng tr\u00ecnh ch\u1ea1y c\u00f9ng l\u00fac port s\u1ebd thay \u0111\u1ed5i, xem th\u00f4ng b\u00e1o tr\u00ean c\u1eeda s\u1ed5 CMD/Ternimal \u0111\u1ec3 bi\u1ebft ch\u00ednh x\u00e1c \u0111\u1ecba ch\u1ec9)", 
+            "title": "C\u00e0i \u0111\u1eb7t Server"
+        }, 
+        {
+            "location": "/patternlab/deployment/#ong-bo-tu-editor-len-server", 
+            "text": "S\u1eed d\u1ee5ng Sublime Text 3, c\u00e0i \u0111\u1eb7t plugin:  Sublime SFTP  Th\u00f4ng tin server nh\u01b0 tr\u00ean, \u0111\u01b0\u1eddng d\u1eabn th\u01b0 m\u1ee5c l\u00e0m vi\u1ec7c: /{user}/{project}   { type :  ftp ,\n     save_before_upload : true,\n     upload_on_save : true,\n     sync_down_on_open : false,\n     sync_skip_deletes : false,\n     sync_same_age : true,\n     confirm_downloads : false,\n     confirm_sync : false,\n     confirm_overwrite_newer : false,\n     host :  labs.awe7.com ,\n     user :  beau ,\n     password :  ,\n     port :  21 ,\n     remote_path :  /{user}/{project} ,\n     ignore_regexes : [\n         \\\\.sublime-(project|workspace) ,  sftp-config(-alt\\\\d?)?\\\\.json ,\n         sftp-settings\\\\.json ,  /venv/ ,  \\\\.svn/ ,  \\\\.hg/ ,  \\\\.git/ ,\n         \\\\.bzr ,  _darcs ,  CVS ,  \\\\.DS_Store ,  Thumbs\\\\.db ,  desktop\\\\.ini ,  /node_modules/ ,  /public/ \n    ],\n     connect_timeout : 30,\n}    Warning  L\u01b0u \u00fd c\u1ea7n ph\u1ea3i c\u00f3 file .gitignore trong th\u01b0 m\u1ee5c project    N\u1ed9i dung file .gitignore   node_modules/\n.DS_Store\npatternlab.json\n.sass-cache/*\n/sass-cache\nThumbs.db\n.idea/\npublic/\n/styleguidekit/.sass-cache\ngulpfile.js\nsftp-config.json", 
+            "title": "\u0110\u1ed3ng b\u1ed9 t\u1eeb editor l\u00ean server"
+        }, 
+        {
+            "location": "/patternlab/deployment/#tren-local", 
+            "text": "Tr\u01b0\u1eddng h\u1ee3p kh\u00f4ng k\u1ebft n\u1ed1i \u0111\u01b0\u1ee3c \u0111\u1ebfn server :", 
+            "title": "Tr\u00ean Local"
+        }, 
+        {
+            "location": "/patternlab/deployment/#clone-project", 
+            "text": "Clone project v\u1ec1 local v\u00e0 cd \u0111\u1ebfn th\u01b0 m\u1ee5c project    $ cd project/", 
+            "title": "Clone Project"
+        }, 
+        {
+            "location": "/patternlab/deployment/#cai-gulp", 
+            "text": "\u0110\u1ea7u ti\u00ean ti\u1ebfn h\u00e0nh c\u00e1i Gulp Global b\u1eb1ng l\u1ec7nh    $ npm install --global gulp-cli   Sau \u0111\u00f3 cd v\u00e0o th\u01b0 m\u1ee5c project v\u00e0 ch\u1ea1y l\u1ec7nh    $ npm install gulp\n$ npm install \n$ composer install\n$ gulp   V\u00e0o b\u1eb1ng \u0111\u01b0\u1eddng d\u1eabn :  http://localhost:3000", 
+            "title": "C\u00e0i Gulp"
+        }, 
+        {
+            "location": "/plugins/start/", 
+            "text": "Gi\u1edbi thi\u1ec7u\n\n\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng t\u1ea5t c\u1ea3 c\u00e1c Plugins - Thirt Party cho Devs", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/plugins/slider-revolution/", 
+            "text": "C\u00e0i \u0111\u1eb7t\n\n\n\n\nDashboard \u2013\n Plugins \u2013\n Add New\n\n\n\n\n\n\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng", 
+            "title": "Slider Revolution"
+        }, 
+        {
+            "location": "/plugins/slider-revolution/#cai-at", 
+            "text": "Dashboard \u2013  Plugins \u2013  Add New", 
+            "title": "C\u00e0i \u0111\u1eb7t"
+        }, 
+        {
+            "location": "/plugins/slider-revolution/#huong-dan-su-dung", 
+            "text": "", 
+            "title": "H\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng"
+        }, 
+        {
+            "location": "/tools-tips/", 
+            "text": "Tools\n\n\nBrew\n\n\nL\u1ec7nh c\u00e0i \u0111\u1eb7t \n\n\n\n\n/usr/bin/ruby -e \n$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\n\n\n\n\n\n\nMarkdown\n\n\nTi\u00eau \u0111\u1ec1\n\n\nC\u00e1c l\u1edbp ti\u00eau \u0111\u1ec1 h1,h2,h3 cho \u0111\u1ebfn h6 c\u00f3 th\u1ec3 vi\u1ebft \u0111\u01b0\u1ee3c b\u1eb1ng c\u00e1ch th\u00eam s\u1ed1 l\u01b0\u1ee3ng k\u00fd t\u1ef1 # t\u01b0\u01a1ng \u1ee9ng v\u00e0o \u0111\u1ea7u d\u00f2ng. M\u1ed9t k\u00fd t\u1ef1 # t\u01b0\u01a1ng \u0111\u01b0\u01a1ng v\u1edbi h1, 2 k\u00fd t\u1ef1 # t\u01b0\u01a1ng \u0111\u01b0\u01a1ng v\u1edbi h2 ... Tuy v\u1eady \u0111\u1ec3 vi\u1ebft m\u1ed9t b\u00e0i vi\u1ebft d\u1ec5 \u0111\u1ecdc th\u00ec hi\u1ebfm khi c\u1ea7n d\u00f9ng \u0111\u1ebfn qu\u00e1 3 k\u00fd t\u1ef1 n\u00e0y.\n\n\n\n\n# Header h1\n## Header h2\n### Header h3\n\n\n\n\n\n\nB\u00f4i \u0111\u1eadm v\u00e0 in nghi\u00eang\n\n\nK\u1eb9p m\u1ed9t t\u1eeb \u1edf \u0111\u1ea7u v\u00e0 cu\u1ed1i b\u1eb1ng 1 k\u00fd t\u1ef1 * \u0111\u1ec3 in nghi\u00eang, 2 k\u00fd t\u1ef1 \n \u0111\u1ec3 b\u00f4i \u0111\u1eadm, v\u00e0 3 k\u00fd t\u1ef1 \n \u0111\u1ec3 v\u1eeba in nghi\u00eang v\u1eeba b\u00f4i \u0111\u1eadm.\nN\u1ebfu mu\u1ed1n b\u1ea1n c\u00f3 th\u1ec3 d\u00f9ng g\u1ea1ch d\u01b0\u1edbi _ thay cho d\u1ea5u sao \n.\n\n\n\n\n**Bold** and *italic* and ***both***.\n__Bold__ and _talic_ and ___both___\n\n\n\n\n\n\nNgo\u00e0i ra ch\u1eef c\u00f3 th\u1ec3 g\u1ea1ch ngang \n\n\n\n\n~~strike me~~\n\n\n\n\n\n\nLink\n\n\nVi\u1ebft link trong markdown b\u1eb1ng c\u00e1ch cho alt text v\u00e0o trong ngo\u1eb7c vu\u00f4ng[] v\u00e0 link th\u1eadt v\u00e0o trong ngo\u1eb7c \u0111\u01a1n (). \n\n\n\n\nV\u00ed d\u1ee5 : [BeauTheme](http://beautheme.com)\n\n\n\n\n\n\nBeauTheme\n\n\nNgo\u00e0i ra b\u1ea1n c\u00f3 th\u1ec3 th\u00eam ti\u00eau \u0111\u1ec1 cho link b\u1eb1ng c\u00e1ch th\u00eam \"title\" trong m\u00f4 t\u1ea3 b\u00ean trong ngo\u1eb7c \u0111\u01a1n ().\n\n\n\n\nV\u00ed d\u1ee5 : [BeauTheme](http://beautheme.com \nBeau\n)\n\n\n\n\n\n\nBeauTheme\n\n\nH\u00ecnh \u1ea3nh\n\n\nCh\u00e8n h\u00ecnh \u1ea3nh trong markdown ch\u1ec9 kh\u00e1c v\u1edbi ch\u00e8n link \u0111\u00f4i ch\u00fat. B\u1ea1n th\u00eam k\u00fd t\u1ef1 ! v\u00e0o \u0111\u1ea7u ti\u00ean, sau \u0111\u00f3 ghi alt text v\u00e0 link \u1ea3nh v\u00e0o trong ngo\u1eb7c vu\u00f4ng [] v\u00e0 ngo\u1eb7c \u0111\u01a1n ().\n\n\n\n\n![Image](http://link/image.png)\n\n\n\n\n\n\n\u0110\u1ecbnh d\u1ea1ng danh s\u00e1ch\n\n\nC\u00f3 th\u1ec3 d\u00f9ng c\u00e1c k\u00ed t\u1ef1:\n\n\n\n\n* valid bullet\n- valid bullet\n+ valid bullet\n\n\n\n\n\n\nV\u00ed d\u1ee5 :\n\n\n\n\n+ Lorem ipsum dolor sit amet\n+ Consectetur adipiscing elit\n+ Integer molestie lorem at massa\n+ Facilisis in pretium nisl aliquet\n+ Nulla volutpat aliquam velit\n    - Phasellus iaculis neque\n    - Purus sodales ultricies\n    - Vestibulum laoreet porttitor sem\n    - Ac tristique libero volutpat at\n+ Faucibus porta lacus fringilla vel\n+ Aenean sit amet erat nunc\n+ Eget porttitor lorem\n\n\n\n\n\n\n\u0110\u1ec3 l\u1ed3ng nhau th\u00ec ph\u1ea3i c\u00e1ch 4 space. K\u1ebft qu\u1ea3:\n\n\n\n\nLorem ipsum dolor sit amet\n\n\nConsectetur adipiscing elit\n\n\nInteger molestie lorem at massa\n\n\nFacilisis in pretium nisl aliquet\n\n\nNulla volutpat aliquam velit\n\n\nPhasellus iaculis neque\n\n\nPurus sodales ultricies\n\n\nVestibulum laoreet porttitor sem\n\n\nAc tristique libero volutpat at\n\n\n\n\n\n\nFaucibus porta lacus fringilla vel\n\n\nAenean sit amet erat nunc\n\n\nEget porttitor lorem\n\n\n\n\nN\u1ebfu b\u1ea1n mu\u1ed1n d\u00f9ng s\u1ed1 \u0111\u1ec3 \u0111\u00e1nh d\u1ea5u th\u00ec vi\u1ebft s\u1ed1 v\u00e0 m\u1ed9t d\u1ea5u ch\u1ea5m .\n\n\n\n\n1. Lorem ipsum dolor sit amet\n2. Consectetur adipiscing elit\n3. Integer molestie lorem at massa\n4. Facilisis in pretium nisl aliquet\n5. Nulla volutpat aliquam velit\n6. Faucibus porta lacus fringilla vel\n7. Aenean sit amet erat nunc\n8. Eget porttitor lorem\n\n\n\n\n\n\n\n\nLorem ipsum dolor sit amet\n\n\nConsectetur adipiscing elit\n\n\nInteger molestie lorem at massa\n\n\nFacilisis in pretium nisl aliquet\n\n\nNulla volutpat aliquam velit\n\n\nFaucibus porta lacus fringilla vel\n\n\nAenean sit amet erat nunc\n\n\nEget porttitor lorem", 
+            "title": "Tools Tips"
+        }, 
+        {
+            "location": "/tools-tips/#tools", 
+            "text": "", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/tools-tips/#brew", 
+            "text": "L\u1ec7nh c\u00e0i \u0111\u1eb7t    /usr/bin/ruby -e  $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)", 
+            "title": "Brew"
+        }, 
+        {
+            "location": "/tools-tips/#markdown", 
+            "text": "", 
+            "title": "Markdown"
+        }, 
+        {
+            "location": "/tools-tips/#tieu-e", 
+            "text": "C\u00e1c l\u1edbp ti\u00eau \u0111\u1ec1 h1,h2,h3 cho \u0111\u1ebfn h6 c\u00f3 th\u1ec3 vi\u1ebft \u0111\u01b0\u1ee3c b\u1eb1ng c\u00e1ch th\u00eam s\u1ed1 l\u01b0\u1ee3ng k\u00fd t\u1ef1 # t\u01b0\u01a1ng \u1ee9ng v\u00e0o \u0111\u1ea7u d\u00f2ng. M\u1ed9t k\u00fd t\u1ef1 # t\u01b0\u01a1ng \u0111\u01b0\u01a1ng v\u1edbi h1, 2 k\u00fd t\u1ef1 # t\u01b0\u01a1ng \u0111\u01b0\u01a1ng v\u1edbi h2 ... Tuy v\u1eady \u0111\u1ec3 vi\u1ebft m\u1ed9t b\u00e0i vi\u1ebft d\u1ec5 \u0111\u1ecdc th\u00ec hi\u1ebfm khi c\u1ea7n d\u00f9ng \u0111\u1ebfn qu\u00e1 3 k\u00fd t\u1ef1 n\u00e0y.   # Header h1\n## Header h2\n### Header h3", 
+            "title": "Ti\u00eau \u0111\u1ec1"
+        }, 
+        {
+            "location": "/tools-tips/#boi-am-va-in-nghieng", 
+            "text": "K\u1eb9p m\u1ed9t t\u1eeb \u1edf \u0111\u1ea7u v\u00e0 cu\u1ed1i b\u1eb1ng 1 k\u00fd t\u1ef1 * \u0111\u1ec3 in nghi\u00eang, 2 k\u00fd t\u1ef1   \u0111\u1ec3 b\u00f4i \u0111\u1eadm, v\u00e0 3 k\u00fd t\u1ef1   \u0111\u1ec3 v\u1eeba in nghi\u00eang v\u1eeba b\u00f4i \u0111\u1eadm.\nN\u1ebfu mu\u1ed1n b\u1ea1n c\u00f3 th\u1ec3 d\u00f9ng g\u1ea1ch d\u01b0\u1edbi _ thay cho d\u1ea5u sao  .   **Bold** and *italic* and ***both***.\n__Bold__ and _talic_ and ___both___   Ngo\u00e0i ra ch\u1eef c\u00f3 th\u1ec3 g\u1ea1ch ngang    ~~strike me~~", 
+            "title": "B\u00f4i \u0111\u1eadm v\u00e0 in nghi\u00eang"
+        }, 
+        {
+            "location": "/tools-tips/#link", 
+            "text": "Vi\u1ebft link trong markdown b\u1eb1ng c\u00e1ch cho alt text v\u00e0o trong ngo\u1eb7c vu\u00f4ng[] v\u00e0 link th\u1eadt v\u00e0o trong ngo\u1eb7c \u0111\u01a1n ().    V\u00ed d\u1ee5 : [BeauTheme](http://beautheme.com)   BeauTheme  Ngo\u00e0i ra b\u1ea1n c\u00f3 th\u1ec3 th\u00eam ti\u00eau \u0111\u1ec1 cho link b\u1eb1ng c\u00e1ch th\u00eam \"title\" trong m\u00f4 t\u1ea3 b\u00ean trong ngo\u1eb7c \u0111\u01a1n ().   V\u00ed d\u1ee5 : [BeauTheme](http://beautheme.com  Beau )   BeauTheme", 
+            "title": "Link"
+        }, 
+        {
+            "location": "/tools-tips/#hinh-anh", 
+            "text": "Ch\u00e8n h\u00ecnh \u1ea3nh trong markdown ch\u1ec9 kh\u00e1c v\u1edbi ch\u00e8n link \u0111\u00f4i ch\u00fat. B\u1ea1n th\u00eam k\u00fd t\u1ef1 ! v\u00e0o \u0111\u1ea7u ti\u00ean, sau \u0111\u00f3 ghi alt text v\u00e0 link \u1ea3nh v\u00e0o trong ngo\u1eb7c vu\u00f4ng [] v\u00e0 ngo\u1eb7c \u0111\u01a1n ().   ![Image](http://link/image.png)", 
+            "title": "H\u00ecnh \u1ea3nh"
+        }, 
+        {
+            "location": "/tools-tips/#inh-dang-danh-sach", 
+            "text": "C\u00f3 th\u1ec3 d\u00f9ng c\u00e1c k\u00ed t\u1ef1:   * valid bullet\n- valid bullet\n+ valid bullet   V\u00ed d\u1ee5 :   + Lorem ipsum dolor sit amet\n+ Consectetur adipiscing elit\n+ Integer molestie lorem at massa\n+ Facilisis in pretium nisl aliquet\n+ Nulla volutpat aliquam velit\n    - Phasellus iaculis neque\n    - Purus sodales ultricies\n    - Vestibulum laoreet porttitor sem\n    - Ac tristique libero volutpat at\n+ Faucibus porta lacus fringilla vel\n+ Aenean sit amet erat nunc\n+ Eget porttitor lorem   \u0110\u1ec3 l\u1ed3ng nhau th\u00ec ph\u1ea3i c\u00e1ch 4 space. K\u1ebft qu\u1ea3:   Lorem ipsum dolor sit amet  Consectetur adipiscing elit  Integer molestie lorem at massa  Facilisis in pretium nisl aliquet  Nulla volutpat aliquam velit  Phasellus iaculis neque  Purus sodales ultricies  Vestibulum laoreet porttitor sem  Ac tristique libero volutpat at    Faucibus porta lacus fringilla vel  Aenean sit amet erat nunc  Eget porttitor lorem   N\u1ebfu b\u1ea1n mu\u1ed1n d\u00f9ng s\u1ed1 \u0111\u1ec3 \u0111\u00e1nh d\u1ea5u th\u00ec vi\u1ebft s\u1ed1 v\u00e0 m\u1ed9t d\u1ea5u ch\u1ea5m .   1. Lorem ipsum dolor sit amet\n2. Consectetur adipiscing elit\n3. Integer molestie lorem at massa\n4. Facilisis in pretium nisl aliquet\n5. Nulla volutpat aliquam velit\n6. Faucibus porta lacus fringilla vel\n7. Aenean sit amet erat nunc\n8. Eget porttitor lorem    Lorem ipsum dolor sit amet  Consectetur adipiscing elit  Integer molestie lorem at massa  Facilisis in pretium nisl aliquet  Nulla volutpat aliquam velit  Faucibus porta lacus fringilla vel  Aenean sit amet erat nunc  Eget porttitor lorem", 
+            "title": "\u0110\u1ecbnh d\u1ea1ng danh s\u00e1ch"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "", 
+            "title": "About"
+        }
+    ]
+}
